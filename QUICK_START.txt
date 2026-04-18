@@ -1,0 +1,45 @@
+====================================================
+ATC INCOME MANAGEMENT SYSTEM - QUICK START GUIDE
+====================================================
+
+🚀 HOW TO LAUNCH:
+• Double-click "Launch_ATC.bat" 
+• OR double-click "index.html"
+• OR use Desktop shortcut "ATC Income Management"
+• OR search "ATC" in Start Menu
+
+🔑 LOGIN CREDENTIALS:
+Username: admin      Password: atc2024
+Username: manager    Password: manager123
+Username: user       Password: user123
+
+📊 QUICK FEATURES:
+✓ Add daily income entries
+✓ View automatic calculations  
+✓ Generate professional reports
+✓ Export data for backup
+✓ View charts and analytics
+
+💡 DAILY WORKFLOW:
+1. Launch the system
+2. Login with your credentials
+3. Add today's income entries
+4. Check your dashboard statistics
+5. Export data weekly for backup
+
+🔧 FILE LOCATIONS:
+Main Application: C:\Users\USA\ATC_Income_Management_System\
+Data Storage: Browser Local Storage (automatic)
+Backups: Downloads folder when you export
+
+📞 SUPPORT:
+• Check README.md for detailed help
+• All data is stored locally and securely
+• Works offline - no internet required
+• Compatible with all modern browsers
+
+🎯 TIP: Bookmark this in your browser for even faster access!
+
+====================================================
+© 2024 Ausetrick Tech. Cafe - All Rights Reserved
+====================================================

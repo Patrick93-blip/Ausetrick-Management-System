@@ -1,0 +1,96 @@
+{
+  "name": "atc-income-management-system",
+  "version": "1.0.0",
+  "description": "Professional income management system for Ausetrick Tech. Cafe with secure data management and analytics",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 3000",
+    "build": "echo 'Build complete - files ready for deployment'",
+    "deploy": "echo 'Deploy to your preferred hosting platform'",
+    "android": "npx cap add android && npx cap sync && npx cap open android",
+    "ios": "npx cap add ios && npx cap sync && npx cap open ios",
+    "electron": "npx electron .",
+    "test": "echo 'Open index.html in browser to test'"
+  },
+  "keywords": [
+    "income-management",
+    "business-accounting",
+    "financial-tracking",
+    "revenue-analytics",
+    "business-reports",
+    "cafe-management",
+    "small-business",
+    "pwa",
+    "progressive-web-app"
+  ],
+  "author": {
+    "name": "Ausetrick Tech. Cafe",
+    "email": "support@ausetricktech.com",
+    "url": "https://ausetricktech.com"
+  },
+  "license": "Proprietary",
+  "homepage": "https://github.com/ausetricktech/atc-income-system",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ausetricktech/atc-income-system.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ausetricktech/atc-income-system/issues",
+    "email": "support@ausetricktech.com"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^5.0.0",
+    "@capacitor/core": "^5.0.0",
+    "@capacitor/android": "^5.0.0",
+    "@capacitor/ios": "^5.0.0",
+    "electron": "^25.0.0",
+    "electron-builder": "^24.0.0",
+    "http-server": "^14.0.0"
+  },
+  "capacitor": {
+    "appId": "com.ausetricktech.atcincome",
+    "appName": "ATC Income Management",
+    "webDir": ".",
+    "server": {
+      "androidScheme": "https"
+    }
+  },
+  "build": {
+    "appId": "com.ausetricktech.atcincome",
+    "productName": "ATC Income Management System",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "index.html",
+      "styles.css",
+      "script.js",
+      "manifest.json",
+      "sw.js",
+      "README.md"
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "icon.ico"
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "icon.icns"
+    },
+    "linux": {
+      "target": "AppImage",
+      "icon": "icon.png"
+    }
+  },
+  "pwa": {
+    "name": "ATC Income Management System",
+    "short_name": "ATC Income",
+    "theme_color": "#1e40af",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "start_url": "./index.html"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "manifest_version": 3,
+  "name": "ATC Income Management System",
+  "version": "1.0.0",
+  "description": "Professional income management system for Ausetrick Tech. Cafe with secure analytics and reporting",
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "http://localhost/*",
+    "https://localhost/*"
+  ],
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "ATC Income Management",
+    "default_icon": {
+      "16": "icon-16.png",
+      "32": "icon-32.png",
+      "48": "icon-48.png",
+      "128": "icon-128.png"
+    }
+  },
+  "icons": {
+    "16": "icon-16.png",
+    "32": "icon-32.png",
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+  },
+  "background": {
+    "service_worker": "sw.js"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "index.html",
+        "styles.css",
+        "script.js",
+        "manifest.json"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "author": "Ausetrick Tech. Cafe",
+  "homepage_url": "https://ausetricktech.com",
+  "short_name": "ATC Income"
+}
